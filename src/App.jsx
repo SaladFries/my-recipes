@@ -6,7 +6,7 @@ function App() {
     <>
       <div className='container-dgrid'>
         <Card
-          image='./assets/images/adobo.jpg'
+          image='../assets/images/adobo.jpg'
           title='Adobo'
           body='A popular dish made with meat (usually chicken or pork) marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then simmered until tender.'
           ulist='Preparation Time: 10 minutes (plus marinating time)
