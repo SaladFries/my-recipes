@@ -1,8 +1,8 @@
-import kare from '.kare/assets/images/kare.jpg'
 import Card from './component/react.jsx';
 import './App.css'
 
 function App() {
+  const karekare = new URL('.kare/assets/images/kare.jpg', import.meta.url).href
   return (
     <>
       <div className='container-dgrid'>
@@ -68,7 +68,7 @@ function App() {
           />
           
         <Card
-          image=kare
+          image=karekare
           title='Kare-kare'
           body='Kare-Kare is a flavorful Filipino stew made with oxtail, tripe, and vegetables cooked in a rich peanut sauce, often served with shrimp paste on the side.
           '
