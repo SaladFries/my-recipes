@@ -1,12 +1,13 @@
 import Card from './component/react.jsx';
 import './App.css'
+import adobo from './assets/images/adobo.jpg'
 
 function App() {
   return (
     <>
       <div className='container-dgrid'>
         <Card
-          image='/src/assets/images/adobo.jpg'
+          image=adobo
           title='Adobo'
           body='A popular dish made with meat (usually chicken or pork) marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then simmered until tender.'
           ulist='Preparation Time: 10 minutes (plus marinating time)
