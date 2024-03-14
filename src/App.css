@@ -1,0 +1,146 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: hsl(14, 45%, 36%);
+}
+
+/* Layout */
+@media (max-width: 375px) {
+  /* Mobile styles */
+  .card{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 15px;
+    
+  }
+  .card h2{
+    height: 30%;
+    background: hsl(0, 0%, 99%);
+    color: black;
+    text-align: center;
+  }
+  .card p{
+    color: black;
+    text-align: left;
+    white-space: pre-line;
+    top: 0;
+
+  }
+  .card h3{
+    color: black;
+    text-align: left;
+  }
+  .card p .card-ulist{
+    color: hsl(330, 100%, 98%);
+  }
+  .card img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+  }
+  .container-dgrid{
+    display: grid;
+  margin-inline: auto;
+  padding-right: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 60px;
+  border-right: 10px;
+  }
+}
+
+@media (min-width: 376px) {
+  /* Desktop styles */
+  .card{
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin-bottom: auto;
+  }
+  .card h2{
+    height: 30%;
+    background: hsl(0, 0%, 99%);
+    color: black;
+    text-align: center;
+  }
+  .card p{
+    color: black;
+    text-align: left;
+    white-space: pre-line;
+    top: 0;
+
+  }
+  .card h3{
+    color: black;
+    text-align: left;
+  }
+  .card p .card-ulist{
+    color: hsl(330, 100%, 98%);
+  }
+  .card img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+  }
+  .container-dgrid{
+    display: grid;
+  margin-inline: auto;
+  padding-right: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  
+  }
+}
+
+/* Colors */
+:root {
+  --color-nutmeg: hsl(14, 45%, 36%);
+  --color-dark-raspberry: hsl(332, 51%, 32%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-rose-white: hsl(330, 100%, 98%);
+  --color-eggshell: hsl(30, 54%, 90%);
+  --color-light-grey: hsl(30, 18%, 87%);
+  --color-wenge-brown: hsl(30, 10%, 34%);
+  --color-dark-charcoal: hsl(24, 5%, 18%);
+}
+
+/* Typography */
+body {
+  font-size: 16px;
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://fonts.google.com/specimen/Outfit');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://fonts.google.com/specimen/Outfit');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('https://fonts.google.com/specimen/Outfit');
+  font-weight: 700;
+}
