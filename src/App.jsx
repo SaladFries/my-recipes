@@ -2,7 +2,6 @@ import Card from './component/react.jsx';
 import './App.css'
 
 function App() {
-  const karekare = new URL('.kare/assets/images/kare.jpg', import.meta.url).href
   return (
     <>
       <div className='container-dgrid'>
