@@ -6,7 +6,7 @@ function App() {
     <>
       <div className='container-dgrid'>
         <Card
-          image='../src/assets/images/img-adobo.jpg'
+          image='/src/assets/images/adobo.jpg'
           title='Adobo'
           body='A popular dish made with meat (usually chicken or pork) marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, then simmered until tender.'
           ulist='Preparation Time: 10 minutes (plus marinating time)
@@ -34,7 +34,7 @@ function App() {
           />
           
         <Card
-          image='../src/assets/images/img-sinigang.jpg'
+          image='/src/assets/images/sinigang.jpg'
           title='Sinigang'
           body='Sinigang is a comforting Filipino sour soup made with pork, shrimp, or fish, flavored with tamarind and filled with a variety of vegetables.'
           ulist='Preparation Time: 15 minutes
@@ -67,7 +67,7 @@ function App() {
           />
           
         <Card
-          image='../src/assets/images/img-kare-kare.jpg'
+          image='/src/assets/images/kare.jpg'
           title='Kare-kare'
           body='Kare-Kare is a flavorful Filipino stew made with oxtail, tripe, and vegetables cooked in a rich peanut sauce, often served with shrimp paste on the side.
           '
@@ -102,7 +102,7 @@ function App() {
           />
           
         <Card
-          image='../src/assets/images/img-lechon.jpg'
+          image='/src/assets/images/lechon.jpg'
           title='Lechon'
           body='Lechon is a traditional Filipino dish consisting of a whole roasted pig, cooked until the skin is crispy and the meat inside is tender and flavorful.'
           ulist='Preparation Time: 30 minutes
@@ -130,7 +130,7 @@ function App() {
           Carbohydrates: 0g'
           />
           <Card
-            image='../src/assets/images/img-pansit.jpg'
+            image='/src/assets/images/pansit.jpg'
             title='Pancit'
             body='Pancit is a versatile Filipino noodle dish that comes in various forms, typically stir-fried with a combination of meat, vegetables, and flavorful seasonings.'
             ulist='PPreparation Time: 15 minutes
