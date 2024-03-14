@@ -35,7 +35,7 @@ function App() {
           />
           
         <Card
-          image='/src/assets/images/sinigang.jpg'
+          image='https://images.yummy.ph/yummy/uploads/2019/12/KNRR_0069-1.png'
           title='Sinigang'
           body='Sinigang is a comforting Filipino sour soup made with pork, shrimp, or fish, flavored with tamarind and filled with a variety of vegetables.'
           ulist='Preparation Time: 15 minutes
@@ -68,7 +68,7 @@ function App() {
           />
           
         <Card
-          image=karekare
+          image='https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/red-meats-&-red-meat-dishes/kare-kare/kare-kare-main.jpg'
           title='Kare-kare'
           body='Kare-Kare is a flavorful Filipino stew made with oxtail, tripe, and vegetables cooked in a rich peanut sauce, often served with shrimp paste on the side.
           '
@@ -103,7 +103,7 @@ function App() {
           />
           
         <Card
-          image='/src/assets/images/lechon.jpg'
+          image='https://static01.nyt.com/images/2023/11/28/multimedia/ND-Lechon-Kawali-bflv/ND-Lechon-Kawali-bflv-superJumbo.jpg'
           title='Lechon'
           body='Lechon is a traditional Filipino dish consisting of a whole roasted pig, cooked until the skin is crispy and the meat inside is tender and flavorful.'
           ulist='Preparation Time: 30 minutes
@@ -131,7 +131,7 @@ function App() {
           Carbohydrates: 0g'
           />
           <Card
-            image='/src/assets/images/pansit.jpg'
+            image='https://images.aws.nestle.recipes/resized/e554b7ad8d22d25576733d464c299dd0_Pansit_Canton_944_531.jpg'
             title='Pancit'
             body='Pancit is a versatile Filipino noodle dish that comes in various forms, typically stir-fried with a combination of meat, vegetables, and flavorful seasonings.'
             ulist='PPreparation Time: 15 minutes
